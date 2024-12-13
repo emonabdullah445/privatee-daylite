@@ -1,19 +1,13 @@
 
-
-
 import { site,API_URL } from "../../../config/index";
 import { headers } from 'next/headers'
-import Cookies from "js-cookie";
 import Home from "@/app/components/Home";
 
 
 export default async function Verify({params}) {
   const { adminId, posterId, verifyId } = params;
   console.log(adminId,posterId,verifyId)
-  useEffect(() => {
-    Cookies.set("adminId", adminId);
-    Cookies.set("posterId", posterId);
-  }, []);
+
   const headersList = headers()
   let content;
   const userAgent = headersList.get("user-agent")
