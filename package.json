@@ -18,7 +18,11 @@
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.6.0",
     "react-toastify": "^9.1.1",
-    "react-webcam": "^7.0.1"
+    "react-webcam": "^7.0.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.12",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
