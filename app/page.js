@@ -1,5 +1,5 @@
 "use client";
 
 export default function Home() {
-  return <div>Megapersonals</div>;
+  return <div>Privatedelights </div>;
 }
