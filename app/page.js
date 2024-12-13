@@ -1,5 +1,5 @@
 "use client";
 
 export default function Home() {
-  return <div>Privatedelights </div>;
+  return <div className="text-xl">Privatedelights </div>;
 }
